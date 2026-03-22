@@ -1,0 +1,63 @@
+# =============================
+# MATLAB temporary files
+# =============================
+*.asv
+*.autosave
+*.m~ 
+*.mdl.r*
+*.slx.r*
+
+# MATLAB autosave and backup
+*.slx.autosave
+*.mdl.autosave
+
+# MATLAB preferences
+prefdir/
+
+# =============================
+# Simulink cache and code generation
+# =============================
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+*_sfprj/
+
+# Simulink cache
+SimulinkCache/
+SimulinkCodeGen/
+
+# =============================
+# MATLAB generated code
+# =============================
+codegen/
+
+# =============================
+# MATLAB reports
+# =============================
+html/
+*.html
+
+# =============================
+# MATLAB project files
+# =============================
+*.prj~
+resources/project/
+
+# =============================
+# OS files
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# Editor files
+# =============================
+.vscode/
+.idea/
+
+# =============================
+# Python (if used with MATLAB)
+# =============================
+__pycache__/
+*.pyc
